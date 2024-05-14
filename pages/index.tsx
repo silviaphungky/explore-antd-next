@@ -30,7 +30,7 @@ function Home(props: { name: string }) {
     <>
       {data.map((item) => (
         <div key={item}>
-          <Typography>{item}</Typography>
+          <Typography style={{ color: 'red' }}>{item}</Typography>
         </div>
       ))}
     </>
